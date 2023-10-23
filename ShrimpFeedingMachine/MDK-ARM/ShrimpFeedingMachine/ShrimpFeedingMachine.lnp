@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"shrimpfeedingmachine\startup_stm32f103xb.o"
+"shrimpfeedingmachine\hx711.o"
+"shrimpfeedingmachine\main.o"
+"shrimpfeedingmachine\stm32f1xx_it.o"
+"shrimpfeedingmachine\stm32f1xx_hal_msp.o"
+"shrimpfeedingmachine\stm32f1xx_hal_gpio_ex.o"
+"shrimpfeedingmachine\stm32f1xx_hal_i2c.o"
+"shrimpfeedingmachine\stm32f1xx_hal.o"
+"shrimpfeedingmachine\stm32f1xx_hal_rcc.o"
+"shrimpfeedingmachine\stm32f1xx_hal_rcc_ex.o"
+"shrimpfeedingmachine\stm32f1xx_hal_gpio.o"
+"shrimpfeedingmachine\stm32f1xx_hal_dma.o"
+"shrimpfeedingmachine\stm32f1xx_hal_cortex.o"
+"shrimpfeedingmachine\stm32f1xx_hal_pwr.o"
+"shrimpfeedingmachine\stm32f1xx_hal_flash.o"
+"shrimpfeedingmachine\stm32f1xx_hal_flash_ex.o"
+"shrimpfeedingmachine\stm32f1xx_hal_exti.o"
+"shrimpfeedingmachine\stm32f1xx_hal_tim.o"
+"shrimpfeedingmachine\stm32f1xx_hal_tim_ex.o"
+"shrimpfeedingmachine\stm32f1xx_hal_uart.o"
+"shrimpfeedingmachine\system_stm32f1xx.o"
+--strict --scatter "ShrimpFeedingMachine\ShrimpFeedingMachine.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ShrimpFeedingMachine.map" -o ShrimpFeedingMachine\ShrimpFeedingMachine.axf

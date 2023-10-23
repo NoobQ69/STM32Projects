@@ -1,0 +1,403 @@
+<mxfile host="Electron" modified="2023-06-25T17:37:25.269Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="kAr_QZWoDUuE_PIIA-IF" version="21.1.2" type="device">
+  <diagram name="Page-1" id="HBJPF6dLf_c44qDuFHce">
+    <mxGraphModel dx="639" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VZYdex-toUpez3PTy5-j-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9gSIwg6gFWN89OeQqdVB-1" target="VZYdex-toUpez3PTy5-j-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9gSIwg6gFWN89OeQqdVB-1" value="Định nghĩa các chân GPIO cho ESP32, khởi tạo biến" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="332.5" y="230" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-1" target="9gSIwg6gFWN89OeQqdVB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-4" target="VZYdex-toUpez3PTy5-j-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-4" value="Cấu hình và kết nối WiFi cho ESP32 ở chế độ AP (Access Point), cấu hình các chân GPIOs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="360" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-5" target="VZYdex-toUpez3PTy5-j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-5" value="Đọc nút nhấn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-6" target="VZYdex-toUpez3PTy5-j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-6" target="VZYdex-toUpez3PTy5-j-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-6" value="Nút nhấn 1 nhấn?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-7" target="VZYdex-toUpez3PTy5-j-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="1162.1052631578948" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="640" />
+              <mxPoint x="870" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-7" value="Gọi hàm ringBell với tham số RELAY1_PIN và chuỗi &quot;Chuong 1 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="600" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-8" target="VZYdex-toUpez3PTy5-j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-8" target="VZYdex-toUpez3PTy5-j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-8" value="Nút nhấn 2 nhấn?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-9" target="VZYdex-toUpez3PTy5-j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-9" target="VZYdex-toUpez3PTy5-j-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-9" value="Nút nhấn 3 nhấn?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="810" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-10" target="VZYdex-toUpez3PTy5-j-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-10" target="VZYdex-toUpez3PTy5-j-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-10" value="Nút nhấn 4 nhấn?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="910" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-11" target="VZYdex-toUpez3PTy5-j-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.448;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-11" target="VZYdex-toUpez3PTy5-j-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-11" value="Công tắc tổng bật?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1010" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-12" value="Gọi hàm ringBell với tham số RELAY2_PIN và chuỗi &quot;Chuong 2 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="700" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-13" value="Gọi hàm ringBell với tham số RELAY3_PIN và chuỗi &quot;Chuong 3 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="810" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-14" value="Gọi hàm ringBell với tham số RELAY4_PIN và chuỗi &quot;Chuong 4 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="910" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-15" value="Mở tất cả chuông, hiển thị lên LCD &quot;Tat ca chuong on&quot; và chờ đến khi công tắc đóng thì tắt chuông." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1010" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-16" target="VZYdex-toUpez3PTy5-j-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-16" value="Delay 20ms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-17" target="VZYdex-toUpez3PTy5-j-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-17" value="Kiểm tra request từ client&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="1360" />
+              <mxPoint x="1020" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-18" target="VZYdex-toUpez3PTy5-j-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-18" value="Có request từ client?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="1320" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-19" target="VZYdex-toUpez3PTy5-j-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-19" value="Chờ đên khi client sẵn sàng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-20" target="VZYdex-toUpez3PTy5-j-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-20" value="Đọc request từ client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-21" target="VZYdex-toUpez3PTy5-j-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-21" value="Xử lí request của client về giá trị chuỗi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-22" target="VZYdex-toUpez3PTy5-j-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-22" value="In giá trị của client ra Serial Terminal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-23" target="VZYdex-toUpez3PTy5-j-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-23" target="VZYdex-toUpez3PTy5-j-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-23" value="Giá trị của client&amp;nbsp;= F1ON &lt;br&gt;(floor 1 is on)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.25" y="1760" width="182.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-24" target="VZYdex-toUpez3PTy5-j-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-24" target="VZYdex-toUpez3PTy5-j-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-24" value="Giá trị của client = F2ON &lt;br&gt;(floor 2 is on)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.25" y="1880" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-25" target="VZYdex-toUpez3PTy5-j-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-25" target="VZYdex-toUpez3PTy5-j-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-25" value="Giá trị của client = F3ON &lt;br&gt;(floor 3 is on)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.75" y="2020" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-26" target="VZYdex-toUpez3PTy5-j-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-26" target="VZYdex-toUpez3PTy5-j-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-26" value="Giá trị của client = F4ON &lt;br&gt;(floor 4 is on)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.75" y="2160" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-27" target="VZYdex-toUpez3PTy5-j-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-27" target="VZYdex-toUpez3PTy5-j-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-27" value="Giá trị của client = ALLON &lt;br&gt;(All floors are on)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.25" y="2290" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-28" target="VZYdex-toUpez3PTy5-j-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-28" target="VZYdex-toUpez3PTy5-j-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-28" value="Giá trị của client = ALLOFF&lt;br&gt;(All floors are off)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351.75" y="2430" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-29" target="VZYdex-toUpez3PTy5-j-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="2602.1052631578946" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="1805" />
+              <mxPoint x="1000" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-29" value="Gọi hàm ringBell với tham số RELAY1_PIN và chuỗi &quot;Chuong 1 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1765" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-31" value="Gọi hàm ringBell với tham số RELAY2_PIN và chuỗi &quot;Chuong 2 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1895" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="2075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-32" value="Gọi hàm ringBell với tham số RELAY3_PIN và chuỗi &quot;Chuong 3 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2035" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="2215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-33" value="Gọi hàm ringBell với tham số RELAY4_PIN và chuỗi &quot;Chuong 4 bat&quot; để hiển thị LCD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2175" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="2345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-34" value="Mở tất cả chuông và hiển thị LCD &quot;Tat ca chuong on&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2305" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-35" target="VZYdex-toUpez3PTy5-j-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="2600" />
+              <mxPoint x="100" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-35" value="Respond lại server giá trị vừa nhận" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="383" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="2485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-69" value="Đóng tất cả chuông." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2445" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-72" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-75" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-78" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-79" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="448" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-80" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-81" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="448" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-82" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-83" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="990" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-84" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-85" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-86" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="1360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-87" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="1400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-89" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="1820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-90" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-91" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-92" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="448" y="1980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-93" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="2090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-94" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-95" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="2230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-96" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="2260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-97" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="2360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-98" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="2390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-99" value="Đúng" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="533.75" y="2495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-100" value="Sai" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="2530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-112" target="VZYdex-toUpez3PTy5-j-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-112" value="ringBell" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-113" target="VZYdex-toUpez3PTy5-j-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-113" value="Hiển thị lên Serial thông báo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-114" target="VZYdex-toUpez3PTy5-j-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-114" value="Hiển thị lên LCD thông báo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-115" target="VZYdex-toUpez3PTy5-j-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-115" value="Bật chân relay để mở chuông" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-116" target="VZYdex-toUpez3PTy5-j-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-116" value="Delay 1000 ms" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZYdex-toUpez3PTy5-j-117" target="VZYdex-toUpez3PTy5-j-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-117" value="Tắt chân relay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZYdex-toUpez3PTy5-j-118" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

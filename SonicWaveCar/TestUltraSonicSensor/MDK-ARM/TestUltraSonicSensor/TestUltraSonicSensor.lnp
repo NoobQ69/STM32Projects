@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"testultrasonicsensor\startup_stm32f103xb.o"
+"testultrasonicsensor\hc_sr04.o"
+"testultrasonicsensor\main.o"
+"testultrasonicsensor\stm32f1xx_it.o"
+"testultrasonicsensor\stm32f1xx_hal_msp.o"
+"testultrasonicsensor\delayus.o"
+"testultrasonicsensor\clcd_i2c.o"
+"testultrasonicsensor\stm32f1xx_hal_gpio_ex.o"
+"testultrasonicsensor\stm32f1xx_hal_i2c.o"
+"testultrasonicsensor\stm32f1xx_hal.o"
+"testultrasonicsensor\stm32f1xx_hal_rcc.o"
+"testultrasonicsensor\stm32f1xx_hal_rcc_ex.o"
+"testultrasonicsensor\stm32f1xx_hal_gpio.o"
+"testultrasonicsensor\stm32f1xx_hal_dma.o"
+"testultrasonicsensor\stm32f1xx_hal_cortex.o"
+"testultrasonicsensor\stm32f1xx_hal_pwr.o"
+"testultrasonicsensor\stm32f1xx_hal_flash.o"
+"testultrasonicsensor\stm32f1xx_hal_flash_ex.o"
+"testultrasonicsensor\stm32f1xx_hal_exti.o"
+"testultrasonicsensor\stm32f1xx_hal_tim.o"
+"testultrasonicsensor\stm32f1xx_hal_tim_ex.o"
+"testultrasonicsensor\system_stm32f1xx.o"
+--strict --scatter "TestUltraSonicSensor\TestUltraSonicSensor.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TestUltraSonicSensor.map" -o TestUltraSonicSensor\TestUltraSonicSensor.axf

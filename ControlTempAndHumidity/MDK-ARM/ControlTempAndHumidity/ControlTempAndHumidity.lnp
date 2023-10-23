@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"controltempandhumidity\startup_stm32f103xb.o"
+"controltempandhumidity\dht.o"
+"controltempandhumidity\delay_timer.o"
+"controltempandhumidity\lcd.o"
+"controltempandhumidity\keypad.o"
+"controltempandhumidity\main.o"
+"controltempandhumidity\stm32f1xx_it.o"
+"controltempandhumidity\stm32f1xx_hal_msp.o"
+"controltempandhumidity\stm32f1xx_hal_gpio_ex.o"
+"controltempandhumidity\stm32f1xx_hal_i2c.o"
+"controltempandhumidity\stm32f1xx_hal.o"
+"controltempandhumidity\stm32f1xx_hal_rcc.o"
+"controltempandhumidity\stm32f1xx_hal_rcc_ex.o"
+"controltempandhumidity\stm32f1xx_hal_gpio.o"
+"controltempandhumidity\stm32f1xx_hal_dma.o"
+"controltempandhumidity\stm32f1xx_hal_cortex.o"
+"controltempandhumidity\stm32f1xx_hal_pwr.o"
+"controltempandhumidity\stm32f1xx_hal_flash.o"
+"controltempandhumidity\stm32f1xx_hal_flash_ex.o"
+"controltempandhumidity\stm32f1xx_hal_exti.o"
+"controltempandhumidity\stm32f1xx_hal_tim.o"
+"controltempandhumidity\stm32f1xx_hal_tim_ex.o"
+"controltempandhumidity\system_stm32f1xx.o"
+--strict --scatter "ControlTempAndHumidity\ControlTempAndHumidity.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ControlTempAndHumidity.map" -o ControlTempAndHumidity\ControlTempAndHumidity.axf
